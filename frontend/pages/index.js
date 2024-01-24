@@ -21,6 +21,18 @@ export default function Home() {
         </li>
       ))}
       </ol>
+      <h1> Solved React Challenges </h1>
+      <ol>
+        <li style={{ margin: '10px' }}>
+          <Link href={`/solved/file-tree-viewer`}>file-tree-viewer</Link>
+        </li>
+        <li style={{ margin: '10px' }}>
+          <Link href={`/solved/hooks`}>hooks</Link>
+        </li>
+        <li style={{ margin: '10px' }}>
+          <Link href={`/solved/tetris`}>tetris</Link>
+        </li>
+      </ol>
     </div>
   )
 }
