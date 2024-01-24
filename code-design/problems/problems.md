@@ -43,7 +43,7 @@ function calc() {
   const a = 7
   const b = 5
 
-  // if a is bigger than be, return average Otherwise return  the sum
+  // if a is bigger than b, return average Otherwise return  the sum
   return a >= b ? (a + b) / 2 : a + b
 }
 ```
