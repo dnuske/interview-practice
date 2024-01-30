@@ -32,6 +32,12 @@ export default function Home() {
         <li style={{ margin: '10px' }}>
           <Link href={`/solved/tetris`}>tetris</Link>
         </li>
+        <li style={{ margin: '10px' }}>
+          <Link href={`/solved/shopping-cart`}>shopping cart</Link>
+        </li>
+        <li style={{ margin: '10px' }}>
+          <Link href={`/solved/market`}>market</Link>
+        </li>
       </ol>
     </div>
   )
